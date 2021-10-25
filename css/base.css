@@ -33,6 +33,8 @@ body {
     margin-right: auto;
 }
 
+
+
 /* header */
 
 .header {
@@ -313,17 +315,27 @@ a.btn-big {
     }
 
     .story-video {
-
+        width: 895px;
+        position: relative;
     }
 
+    
     .story-video-btn {
-
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .story-video-overlay {
-
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
     }
 
-    .story-video-object {
-        
-    }
+/* .story-video-ovject {
+    border-radius: 16.3px;
+} */
