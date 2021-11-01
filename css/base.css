@@ -4,6 +4,7 @@ body {
     font-size: 20px;
     color: #424242;
     line-height: 1.5;
+    
 }
 
 /* utility */
@@ -34,7 +35,11 @@ body {
     margin-right: auto;
 }
 
-
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
+}
 
 /* header */
 
@@ -337,9 +342,10 @@ a.btn-big {
         background: rgba(0, 0, 0, 0.2);
     }
 
-/* .story-video-ovject {
+.story-video-object {
     border-radius: 18px;
-} */
+    overflow: hidden;
+}
 
 /* PRODUCT */
 
